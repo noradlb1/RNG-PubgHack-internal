@@ -1,0 +1,4 @@
+BasedOnStyle: "Microsoft"
+SortIncludes: false
+ColumnLimit: 0
+NamespaceIndentation: All

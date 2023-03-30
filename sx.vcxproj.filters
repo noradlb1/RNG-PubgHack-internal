@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DriverController.cpp" />
+    <ClCompile Include="Imgui\examples\imgui_impl_dx11.cpp" />
+    <ClCompile Include="Imgui\examples\imgui_impl_win32.cpp" />
+    <ClCompile Include="Imgui\imgui.cpp" />
+    <ClCompile Include="Imgui\imgui_draw.cpp" />
+    <ClCompile Include="Imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="colors.h" />
+    <ClInclude Include="d3d9.h" />
+    <ClInclude Include="images.hpp" />
+    <ClInclude Include="imgui_custom.hpp" />
+    <ClInclude Include="ParallelWorker.h" />
+    <ClInclude Include="RNG.hpp" />
+    <ClInclude Include="syscall.h" />
+    <ClInclude Include="xor.hpp" />
+    <ClInclude Include="driver.h" />
+    <ClInclude Include="DriverController.h" />
+    <ClInclude Include="Imgui\examples\imgui_impl_dx11.h" />
+    <ClInclude Include="Imgui\examples\imgui_impl_win32.h" />
+    <ClInclude Include="Imgui\imconfig.h" />
+    <ClInclude Include="Imgui\imgui.h" />
+    <ClInclude Include="Imgui\imgui_internal.h" />
+    <ClInclude Include="Imgui\imstb_rectpack.h" />
+    <ClInclude Include="Imgui\imstb_textedit.h" />
+    <ClInclude Include="Imgui\imstb_truetype.h" />
+    <ClInclude Include="overlay.h" />
+    <ClInclude Include="process.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="vector3.h" />
+    <ClInclude Include="xorstr.hpp" />
+    <ClInclude Include="Swifty.hpp">
+      <Filter>chiper</Filter>
+    </ClInclude>
+    <ClInclude Include="Swifty_hor.hpp">
+      <Filter>chiper</Filter>
+    </ClInclude>
+    <ClInclude Include="ChiperEncoder.h">
+      <Filter>chiper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Raze-Vip.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="d3d9.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="chiper">
+      <UniqueIdentifier>{9afe5516-d911-4d8e-94c8-c82bb800a8a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
